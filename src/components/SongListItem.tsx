@@ -148,7 +148,6 @@ export const SongListItem: React.FC<SongListItemProps> = ({
           <div className="px-4 pb-4 sm:px-5 sm:pb-5 pt-2 border-t border-neutral-100">
             <div className="mb-2 px-1 flex items-center justify-between text-[11px] font-semibold text-neutral-400 uppercase tracking-wider">
               <span>Voces Disponibles</span>
-              <span>Toca para abrir y escuchar</span>
             </div>
 
             {availableVoiceMetas.length > 0 ? (

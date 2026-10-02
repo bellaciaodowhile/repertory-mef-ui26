@@ -46,19 +46,15 @@ export const AlbumHeroCard: React.FC<AlbumHeroCardProps> = ({
             <span>•</span>
             <span className="text-neutral-700">Oficial 2026</span>
             <span>•</span>
-            <span className="text-neutral-500 flex items-center gap-1 font-mono">
-              <Github className="w-3 h-3 text-neutral-700" />
-              mef-2026-repertory
-            </span>
           </div>
 
           {/* Title */}
           <h1 className="text-xl sm:text-2xl font-bold text-neutral-900 tracking-tight leading-snug">
-            Repertorio de música en familia 2026 - A través de los años
+            Repertorio de música en familia 2026
           </h1>
 
           <p className="text-xs sm:text-sm text-neutral-500 font-medium mt-1">
-            Coral Música en Familia • Partituras y Guías SATB
+            Coral Música en Familia • Guías SATB
           </p>
 
           {currentVoiceMeta && (
