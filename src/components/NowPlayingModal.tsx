@@ -355,25 +355,6 @@ export const NowPlayingModal: React.FC<NowPlayingModalProps> = ({
                   <span className="text-[10px] font-bold uppercase tracking-wider">
                     {meta.shortName}
                   </span>
-
-                  {exists && (
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleDownload(res.url, meta.name, res.fileName, meta.key);
-                      }}
-                      disabled={isThisDownloading}
-                      title={`Descargar [${currentSong.title} - ${meta.name}]`}
-                      className={`mt-1 p-0.5 rounded transition-colors cursor-pointer ${
-                        isSelected
-                          ? 'text-white/80 hover:text-white'
-                          : 'text-neutral-500 hover:text-neutral-900'
-                      }`}
-                    >
-                      <Download className={`w-3 h-3 ${isThisDownloading ? 'animate-bounce' : ''}`} />
-                    </button>
-                  )}
                 </div>
               );
             })}
