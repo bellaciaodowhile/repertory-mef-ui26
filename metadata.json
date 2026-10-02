@@ -1,0 +1,6 @@
+{
+  "name": "Repertorio de música en familia 2026 - A través de los años",
+  "description": "Plataforma móvil y web de ensayo coral para Música en Familia 2026 - A través de los años, con reproductor multivoz, subida de letras y sincronización con GitHub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
